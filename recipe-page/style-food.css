@@ -1,0 +1,42 @@
+*{
+    border: 1px solid black;
+   
+}
+
+title {
+    display:none;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+#home-button{
+    flex-direction: row;
+    
+}
+
+menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+menu ul li {
+    align-items: center;
+    display: inline-flex;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#random {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+}
