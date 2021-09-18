@@ -1,0 +1,34 @@
+*{
+    border: 1px solid black;
+   
+}
+
+title {
+    display:none;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+#homenav{
+    flex-direction: row;
+
+}
+
+menu{
+    display: flex;
+    flex-direction: row;
+}
+
+menu ul li {
+    align-items: center;
+    display: inline-flex;
+}
+
+#container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
