@@ -14,12 +14,13 @@ header {
 
 #homenav{
     flex-direction: row;
-
+    
 }
 
 menu{
     display: flex;
     flex-direction: row;
+    justify-content: flex-end;
 }
 
 menu ul li {
@@ -31,4 +32,11 @@ menu ul li {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+}
+
+#random {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
 }
