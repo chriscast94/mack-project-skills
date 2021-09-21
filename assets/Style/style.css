@@ -1,7 +1,7 @@
-*{
+/* *{
     border: 1px solid black;
    
-}
+} */
 
 title {
     display:none;
@@ -9,23 +9,32 @@ title {
 
 header {
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
+    flex-direction: row;
+    justify-content: space-between;
+    border:1px solid black;
+}
+menu {
+   font-size: 25px;
+   display: flex;
 }
 
-#homenav{
+/* #homenav{
     flex-direction: row;
     
-}
+} */
 
-menu{
+/* menu{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-}
+} */
 
-menu ul li {
-    align-items: center;
+menu li {
+    /* align-items: center; */
     display: inline-flex;
+
+    
 }
 
 #container {

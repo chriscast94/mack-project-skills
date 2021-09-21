@@ -1,7 +1,7 @@
-*{
+/* *{
     border: 1px solid black;
    
-}
+} */
 
 title {
     display:none;
@@ -10,11 +10,15 @@ title {
 header {
     display: flex;
     flex-direction: column;
+    border: 1px solid black;
 }
+
+
 
 #home-button{
     flex-direction: row;
-    
+    width: 25%;
+    margin-left: 38%;
 }
 
 menu{
@@ -32,11 +36,12 @@ menu ul li {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    border: 1px solid black;
 }
 
-#random {
+/* #random {
     display:flex;
     align-items: center;
     justify-content: center;
     
-}
+} */
