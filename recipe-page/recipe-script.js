@@ -1,3 +1,7 @@
+ kn_recipe_javascript
+var recipeImage = document.getElementById("food-img");
+recipeImage.src = data.meals[0].strMealThumb + "/preview";
+
 var homeBtn = document.getElementById("home-button");
 var recipeBtn = document.getElementById("food-btn");
 
@@ -60,3 +64,4 @@ recipeBtn.addEventListener("click", getApi);
 // if strIngredient# !=="" {
 //     print the ingredients
 // }
+
