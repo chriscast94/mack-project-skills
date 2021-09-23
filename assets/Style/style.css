@@ -1,12 +1,20 @@
+
 * {
   border: 1px solid black;
 }
+
+/* *{
+    border: 1px solid black;
+   
+} */
+
 
 title {
   display: none;
 }
 
 header {
+
   display: flex;
   flex-direction: column;
 }
@@ -24,6 +32,35 @@ menu {
 menu ul li {
   align-items: center;
   display: inline-flex;
+
+    display: flex;
+    /* flex-direction: column; */
+    flex-direction: row;
+    justify-content: space-between;
+    border:1px solid black;
+}
+menu {
+   font-size: 25px;
+   display: flex;
+}
+
+/* #homenav{
+    flex-direction: row;
+    
+} */
+
+/* menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+} */
+
+menu li {
+    /* align-items: center; */
+    display: inline-flex;
+
+    
+
 }
 
 #container {
