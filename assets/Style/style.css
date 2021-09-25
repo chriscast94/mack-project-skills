@@ -1,51 +1,41 @@
-/* *{
-    border: 1px solid black;
-   
-} */
 
-title {
-    display:none;
+body{
+    background-color: burlywood;
+}
+button:hover {
+    background-color: #800020;
+    color: gray;
 }
 
 header {
     display: flex;
-    /* flex-direction: column; */
-    flex-direction: row;
-    justify-content: space-between;
     border:1px solid black;
-}
-menu {
-   font-size: 25px;
-   display: flex;
-}
-
-/* #homenav{
-    flex-direction: row;
-    
-} */
-
-/* menu{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-} */
-
-menu li {
-    /* align-items: center; */
-    display: inline-flex;
-
-    
 }
 
 #container {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    margin-top: 15%;
+
+}
+
+#cocktail-card {
+    border: 1px solid black;
+    text-align: center;
+
+}
+#random-btn {
+    font-size: 20px;
+}
+#recipe-card {
+    border:1px solid black;
+    text-align: center;
 }
 
 #random {
     display:flex;
     align-items: center;
     justify-content: center;
-    
+
 }
