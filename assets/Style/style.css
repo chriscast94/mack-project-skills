@@ -1,22 +1,44 @@
+* {
+  border: 1px solid black;
+}
+
 /* *{
     border: 1px solid black;
    
 } */
 
 title {
-    display:none;
+  display: none;
 }
 
 header {
-    display: flex;
-    /* flex-direction: column; */
-    flex-direction: row;
-    justify-content: space-between;
-    border:1px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+#homenav {
+  flex-direction: row;
+}
+
+menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+menu ul li {
+  align-items: center;
+  display: inline-flex;
+
+  display: flex;
+  /* flex-direction: column; */
+  flex-direction: row;
+  justify-content: space-between;
+  border: 1px solid black;
 }
 menu {
-   font-size: 25px;
-   display: flex;
+  font-size: 25px;
+  display: flex;
 }
 
 /* #homenav{
@@ -31,21 +53,30 @@ menu {
 } */
 
 menu li {
-    /* align-items: center; */
-    display: inline-flex;
-
-    
+  /* align-items: center; */
+  display: inline-flex;
 }
 
 #container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
 #random {
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#recipe-btn {
+  font-size: 20px;
+}
+
+#cocktail-btn {
+  font-size: 20px;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
 }

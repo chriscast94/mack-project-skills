@@ -1,21 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style-food.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style-food.css" />
     <title>Skills-Food</title>
-</head>
+  </head>
+
+
+  <body>
 
 <body onload="getApi(event)">
+
     <header class="page-top">
-        <h1 id="page-title">Today I Learned...</h1>
-        <button id="home-button">Home</button>
+      <h1 id="page-title">Today I Learned...</h1>
+      <button id="home-button">Home</button>
     </header>
 
     <main id="container">
+
+      <section id="food-card">
+        <div>
+          <h2 id="food-title"></h2>
+          <button id="food-btn">Get me another!</button>
+        </div>
+
+        <div>
+          <img id="food-img" />
+        </div>
+        <div id="food-recipe">
+          <div id="ingredients"></div>
+
+          <div id="instructions"></div>
+        </div>
+      </section>
 
         <section id="food-card">
             <div>
@@ -46,7 +71,6 @@
 
     </main>
 
-  <script src="./recipe-script.js"></script>
-</body>
-
+    <script src="./recipe-script.js"></script>
+  </body>
 </html>
