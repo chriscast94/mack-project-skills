@@ -1,51 +1,46 @@
-/* *{
-    border: 1px solid black;
-   
-} */
 
-title {
-    display:none;
+body {
+    background-color: burlywood;
 }
 
 header {
     display: flex;
-    /* flex-direction: column; */
-    flex-direction: row;
-    justify-content: space-between;
-    border:1px solid black;
-}
-menu {
-   font-size: 25px;
-   display: flex;
+    flex-direction: column;
+    border: 1px solid black;
 }
 
-/* #homenav{
-    flex-direction: row;
-    
-} */
-
-/* menu{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-} */
-
-menu li {
-    /* align-items: center; */
-    display: inline-flex;
-
-    
+#home-button {
+    margin-left: 40%;
+    margin-right: 40%;
 }
+
 
 #container {
     display: flex;
-    flex-direction: row;
     justify-content: space-evenly;
+    margin: auto;
+    padding: 100px;
 }
 
-#random {
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    
+#cocktail-card {
+    border: 1px solid black;
+
+}
+
+#cocktail-center {
+    text-align: center;
+}
+
+#cocktail-img {
+    float:left;
+    border: 1px solid black;
+    text-align: justify;
+}
+#line {
+    color: black;
+}
+#cocktail-recipe {
+    text-align: justify;
+    background-color: burlywood;
+    color: white;
 }
