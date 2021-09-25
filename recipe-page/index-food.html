@@ -14,13 +14,18 @@
     <title>Skills-Food</title>
   </head>
 
+
   <body>
+
+<body onload="getApi(event)">
+
     <header class="page-top">
       <h1 id="page-title">Today I Learned...</h1>
       <button id="home-button">Home</button>
     </header>
 
     <main id="container">
+
       <section id="food-card">
         <div>
           <h2 id="food-title"></h2>
@@ -36,6 +41,34 @@
           <div id="instructions"></div>
         </div>
       </section>
+
+        <section id="food-card">
+            <div>
+                <h2 id="food-title"></h2>
+                <button id="food-btn">Get me another!</button>
+            </div>
+
+
+            <div>
+
+            <img id="food-img">
+
+            </div>
+            <div id="food-recipe">
+                <div id="ingredients">
+                   
+                </div>
+
+                <div id="instructions">
+                  
+                </div>
+            </div>
+
+        </section>
+
+
+
+
     </main>
 
     <script src="./recipe-script.js"></script>
