@@ -1,7 +1,6 @@
 * /*{
   border: 1px solid black;
 }*/
-
 title {
   display: none;
 }
@@ -10,6 +9,7 @@ header {
   flex-direction: column;
 }
 #home-button {
+  width: 50%;
   flex-direction: row;
   background-color: rgb(61, 56, 56);
   font-size: 20px;
@@ -38,8 +38,19 @@ body {
   background-color: rgb(155, 148, 148);
   font-family: "Poppins", sans-serif;
 }
+#food-btn:hover {
+  background-color: red;
+  font-size: 20px;
+}
 #food-btn {
   background-color: rgb(61, 56, 56);
   font-size: 20px;
   color: white;
+}
+#home-button:hover {
+  background-color: red;
+  font-size: 20px;
+}
+img {
+  border: 5px solid;
 }
