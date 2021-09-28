@@ -1,46 +1,75 @@
 
 body {
-    background-color: burlywood;
+    background-color: rgb(155, 148, 148);
+  font-family: "Poppins", sans-serif;
+
 }
 
 header {
     display: flex;
     flex-direction: column;
-    border: 1px solid black;
+    text-align: center;
 }
 
 #home-button {
     margin-left: 40%;
     margin-right: 40%;
-}
+    background-color: rgb(61, 56, 56);
+    font-size: 20px;
+    color: white;
 
+}
+#home-button:hover {
+    background-color: #800020;
+}
 
 #container {
     display: flex;
     justify-content: space-evenly;
     margin: auto;
-    padding: 100px;
+    padding: 100px;   
 }
 
 #cocktail-card {
-    border: 1px solid black;
+    border: 5px solid black;
+    width: 900px; 
+    border-radius: 25px;
+    background-color: rgb(97, 134, 170);
+}
+#cocktail-title {
+    font-size: 70px;
+}
+#cocktail-btn {
+    background-color: rgb(61, 56, 56);
+    color: white;
+    font-size: 20px;
 
 }
+#cocktail-btn:hover {
+    background-color: #800020;
 
+}
 #cocktail-center {
     text-align: center;
 }
 
 #cocktail-img {
     float:left;
-    border: 1px solid black;
-    text-align: justify;
+    height: 300px;
+    width: 300px;
+    margin: 20px;
+    border-radius: 25px;
+    border: 5px solid black;
+
 }
 #line {
     color: black;
 }
-#cocktail-recipe {
-    text-align: justify;
-    background-color: burlywood;
-    color: white;
+ #cocktail-recipe {
+   margin-right: 20px;
+
+}  
+
+#ingredients {
+    padding: 30px;    
 }
