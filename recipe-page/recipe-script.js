@@ -27,26 +27,26 @@ function getApi() {
             var filteredMeasurements = [];
 
             var ingredientList = [
-                " " + data.meals[0].strIngredient1,
-                " " + data.meals[0].strIngredient2,
-                " " + data.meals[0].strIngredient3,
-                " " + data.meals[0].strIngredient4,
-                " " + data.meals[0].strIngredient5,
-                " " + data.meals[0].strIngredient6,
-                " " + data.meals[0].strIngredient7,
-                " " + data.meals[0].strIngredient8,
-                " " + data.meals[0].strIngredient9,
-                " " + data.meals[0].strIngredient10,
-                " " + data.meals[0].strIngredient11,
-                " " + data.meals[0].strIngredient12,
-                " " + data.meals[0].strIngredient13,
-                " " + data.meals[0].strIngredient14,
-                " " + data.meals[0].strIngredient15,
-                " " + data.meals[0].strIngredient16,
-                " " + data.meals[0].strIngredient17,
-                " " + data.meals[0].strIngredient18,
-                " " + data.meals[0].strIngredient19,
-                " " + data.meals[0].strIngredient20
+                " " + data.meals[0].strIngredient1 + ",",
+                " " + data.meals[0].strIngredient2 + ",",
+                " " + data.meals[0].strIngredient3 + ",",
+                " " + data.meals[0].strIngredient4 + ",",
+                " " + data.meals[0].strIngredient5 + ",",
+                " " + data.meals[0].strIngredient6 + ",",
+                " " + data.meals[0].strIngredient7 + ",",
+                " " + data.meals[0].strIngredient8 + ",",
+                " " + data.meals[0].strIngredient9 + ",",
+                " " + data.meals[0].strIngredient10 + ",",
+                " " + data.meals[0].strIngredient11 + ",",
+                " " + data.meals[0].strIngredient12 + ",",
+                " " + data.meals[0].strIngredient13 + ",",
+                " " + data.meals[0].strIngredient14 + ",",
+                " " + data.meals[0].strIngredient15 + ",",
+                " " + data.meals[0].strIngredient16 + ",",
+                " " + data.meals[0].strIngredient17 + ",",
+                " " + data.meals[0].strIngredient18 + ",",
+                " " + data.meals[0].strIngredient19 + ",",
+                " " + data.meals[0].strIngredient20 + ",",
             ];
 
             for (let i = 0; i < ingredientList.length; i++) {
@@ -94,9 +94,8 @@ function getApi() {
             console.log(mixedArray);
 
             recipeName.innerHTML = data.meals[0].strMeal;
-            instructionsArea.innerHTML = data.meals[0].strInstructions;
-            ingredientArea.innerHTML = mixedArray;
-
+            ingredientArea.innerHTML = "<strong>Ingredients: </strong>" + mixedArray.join(" ");
+            instructionsArea.innerHTML = "<strong>Instructions: </strong>" + data.meals[0].strInstructions;
         });
 }
 
