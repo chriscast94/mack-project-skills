@@ -4,21 +4,25 @@ body{
   font-family: "Poppins", sans-serif;
 
 }
-button:hover {
-    background-color: #800020;
-    color: gray;
-}
 
 header {
     display: flex;
+    flex-direction: column;
+    border: 1px solid black;
 }
+
+#home-button {
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
 
 #container {
     display: flex;
-    flex-direction: row;
     justify-content: space-evenly;
-    margin-top: 15%;
-
+    margin: auto;
+    padding: 100px;
+    text-align: center;
 }
 
 #cocktail-card {
@@ -29,24 +33,4 @@ header {
     margin: 20px;
     border-radius: 25px;
     border: 5px solid black;
-
-}
-#random-btn {
-    font-size: 20px;
-}
-#recipe-card {
-    border:1px solid black;
-    text-align: center;
-    height: 300px;
-    width: 300px;
-    margin: 20px;
-    border-radius: 25px;
-    border: 5px solid black;
-}
-
-#random {
-    display:flex;
-    align-items: center;
-    justify-content: center;
-
 }
