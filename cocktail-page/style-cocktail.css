@@ -35,9 +35,12 @@ header {
     width: 900px; 
     border-radius: 25px;
     background-color: rgb(97, 134, 170);
+    padding-bottom: 5%;
 }
 #cocktail-title {
     font-size: 70px;
+    
+    
 }
 #cocktail-btn {
     background-color: rgb(61, 56, 56);
@@ -67,9 +70,42 @@ header {
 }
  #cocktail-recipe {
    margin-right: 20px;
+   justify-content: space-evenly;
 
 }  
 
 #ingredients {
     padding: 30px;    
+}
+
+@media only screen and (max-width: 737px){
+    #cocktail-img {
+        float:left;
+        height: 200px;
+        width: 200px;
+        margin: 20px;
+        border-radius: 25px;
+        border: 5px solid black;
+    }  
+    
+}
+
+@media only screen and (max-width: 713px){
+    #instructions{
+        margin-left: 20px;
+        margin-bottom: 10px;     
+    }
+
+    
+}
+
+@media only screen and (max-width: 620px){
+    #cocktail-img {
+        float:none;
+        height: 200px;
+        width: 200px;
+        margin: 7% 17% 0% 17%;
+        border-radius: 25px;
+        border: 5px solid black;
+    }  
 }
