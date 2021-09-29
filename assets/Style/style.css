@@ -1,6 +1,7 @@
 
 body{
-    background-color: rgb(155, 148, 148);
+    background-image: linear-gradient(grey, darkgrey, lightblue);
+    min-height: 100vh;
   font-family: "Poppins", sans-serif;
 }
 button:hover {
