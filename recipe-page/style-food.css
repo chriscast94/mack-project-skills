@@ -10,7 +10,6 @@ header {
   text-align: center;
 }
 #home-button {
-
   margin-left: 40%;
   margin-right: 40%;
 
@@ -74,6 +73,7 @@ body {
   width: 900px;
   border-radius: 25px;
   background-color: rgb(97, 134, 170);
+  padding: 3%;
 }
 
 #food-center {
@@ -85,5 +85,7 @@ body {
 
 #food-title {
   font-size: 70px;
-
+}
+#ingredients {
+  padding: 20px;
 }
