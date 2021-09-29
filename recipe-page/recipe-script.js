@@ -5,6 +5,7 @@ const regex = /\s+/;
 // Calls API and develops ingredients list and instruction
 function getApi() {
 
+    // Calling API
     var requestURL = "https://www.themealdb.com/api/json/v1/1/random.php";
 
     fetch(requestURL)
@@ -46,11 +47,12 @@ function getApi() {
                 " " + data.meals[0].strIngredient17 + ",",
                 " " + data.meals[0].strIngredient18 + ",",
                 " " + data.meals[0].strIngredient19 + ",",
-                " " + data.meals[0].strIngredient20 + ",",
+                " " + data.meals[0].strIngredient20
             ];
 
+            // Loop through the ingredients list
             for (let i = 0; i < ingredientList.length; i++) {
-                if (ingredientList[i] !== " " || null) {
+                if (ingredientList[i] !== " ," || null) {
                     filteredIngredients.push(ingredientList[i]);
                 }
             }
@@ -79,6 +81,7 @@ function getApi() {
                 " " + data.meals[0].strMeasure20,
             ];
 
+            // Loop through the measurements list
             for (let i = 0; i < measurementsList.length; i++) {
                 if (measurementsList[i] !== " ") {
                     filteredMeasurements.push(measurementsList[i]);
@@ -86,6 +89,7 @@ function getApi() {
             }
             console.log(filteredMeasurements);
 
+            // Combine measurement and food list into one array
             var mixedArray = [];
             for (i = 0; i < filteredMeasurements.length; i++) {
                 mixedArray[i * 2] = filteredMeasurements[i];
@@ -99,6 +103,7 @@ function getApi() {
         });
 }
 
+// Function to go back to the home page
 function goHome() {
     window.location.href = "../index.html"
 }
