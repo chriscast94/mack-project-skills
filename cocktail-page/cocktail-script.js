@@ -105,31 +105,11 @@ function getAPI(event) {
         for (let i = 0; i < realIngredients.length; i++){
           mixedArray[i*2] = realMeasurements[i];
           mixedArray[(i*2)+1] = realIngredients[i];
-          //console.log(mixedArray);
-        }
-        console.log(mixedArray);
-      
-
-        // function mergeReal(ingredientList, measurementList) {
-        //   let merged = [];
-        //   let index1 = 0;
-        //   let index2 = 0;
-        //   let current = 0;
           
-        //   while (current < (realIngredients.length + realMeasurements.length)) {
-        //     let unmerged1 = realIngredients[index1];
-        //     let unmerged2 = realMeasurements[index2];
-
-        //     if (unmerged1 < unmerged2) {
-        //       merged[]
-        //     }
-        //   }
-        //}
+        }
+        console.log(mixedArray);                
         
-        
-        cocktailIng.innerHTML = "<strong>Ingredients: </strong>" + mixedArray.join('');
-        
-
+        cocktailIng.innerHTML = "<strong>Ingredients: </strong>" + mixedArray.join('');    
         
       })        
       
